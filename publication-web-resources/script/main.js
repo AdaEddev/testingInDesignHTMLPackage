@@ -1,5 +1,5 @@
 var currentPage = 0;
-const totalHtmlFiles = 35;
+const totalHtmlFiles = 42;
 function changePublication() {
 	if (currentPage >= 0 && currentPage < totalHtmlFiles) {
 		var currentPageUrl = document.getElementById("contentIFrame").src;
